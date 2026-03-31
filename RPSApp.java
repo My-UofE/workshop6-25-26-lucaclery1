@@ -9,7 +9,8 @@ enum HandSign {
 
 public class RPSApp {
     /**
-     * Get the computer’s move (randomly generated)
+     * 
+     * @return
      */
     public static HandSign getComputerMove(){
         Random rd = new Random();
@@ -35,7 +36,8 @@ public class RPSApp {
     }
 
     /**
-     * Get the player move from the keyboard input
+     * 
+     * @return
      */
     public static HandSign getPlayerMove() {
         // The Scanner class is used to get the keyboard input
@@ -157,7 +159,8 @@ public class RPSApp {
     }
     
     /**
-     * The main method
+     * main
+     * @param args
      */
     public static void main(String[] args) {
         int playerScore = 0;
